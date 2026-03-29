@@ -1,0 +1,14 @@
+{
+  "name": "@stacks-helpers/contracts",
+  "version": "1.0.0",
+  "description": "Contract read/write wrappers and ABI helpers for Stacks L2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": { "build": "tsc" },
+  "dependencies": {
+    "@stacks/transactions": "^7.2.0",
+    "@stacks/network": "^7.2.0"
+  },
+  "devDependencies": { "typescript": "^5.0.0" }
+}
